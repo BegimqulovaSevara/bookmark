@@ -5,13 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS-starter</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
     <!-- Styles  -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container container">
+            <a class="header__site-icon site-icon" href="#">
+                <img class="site-icon__img" src="./images/site-icon.svg" alt="">
+                <img class="site-icon__bookmark" src="./images/bookmark-black.svg" alt="">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">FEATURES</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">PRICING</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">CONTACT</a>
+                    </li>
+                </ul>
+                <a class="nav__link header__login" href="#">LOGIN</a>
+            </nav>
+        </div>
+    </header>
 
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+    </main>
+
+    <!-- FOOTER CONTENT -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <a class="site-icon" href="#">
+                <img class="site-icon__img" src="./images/site-icon.svg" alt="">
+                <img class="site-icon__bookmark" src="./images/bookmark-white.svg" alt="">
+            </a>
+            <nav class="nav footer__nav">
+                <ul class="nav__list footer__navlist">
+                    <li class="nav__item">
+                        <a href="#" class="footer__link nav__link">FEATURES</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="footer__link nav__link">PRICING</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="footer__link nav__link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="socials">
+                <img class="site-socials" src="./images/facebook.svg" alt="facebook-icon">
+                <img class="site-socials" src="./images/twitter.svg" alt="twitter-icon">
+            </div>
+        </div>
+    </footer>
     <script src="./js/main.js"></script>
 </body>
 </html>
