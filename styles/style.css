@@ -65,6 +65,25 @@ img {
 .main-content {
     flex-grow: 1;
     }
+.site-info{
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site__titles {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+}
+.site__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color:var(--text-color);
+  opacity: 50%;
+  text-align: center;
+}
 /* HEADER */
 .header__container{
   padding-top: 40px;
@@ -156,8 +175,92 @@ img {
   z-index: -1;
 }
 
+/* FEATURES SECTION */
+
+
+/* DOWONLOAD SECTION */
+.dowonload {
+  margin-bottom: 550px;
+}
+.dowonload__list {
+  margin-right: 98px;
+  margin-left: 97px;
+  position: relative;
+  list-style: none;
+}
+.dowonload__item {
+  width: 280px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: var(--background-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.position__item0{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.position__item1{
+  position: absolute;
+  top: 40px;
+  left: 314px;
+}
+.position__item2{
+  position: absolute;
+  top: 80px;
+  left: 628px;
+}
+.dowonload__img{
+  width: 232px;
+  height: 100px;
+  margin-top: 49px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 66px;
+  padding-right: 66px;
+}
+.dowonload__list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  text-align: center;
+}
+.dowonload__list-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color:var(--text-color);
+  opacity: 50%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.decor-line{
+  display: block;
+}
+.dowonload__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:24px;
+  padding-bottom: 24px;
+}
+.dowonloaw__list-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35.5px;
+  padding-right: 34.5px;
+  border-radius: 8px;
+  color: var(--background-color);
+  background-color: var(--element-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+}
+
 /* FOOTER CONTENT */
 .footer{
+  margin-bottom: 0;
   background-color: var(--text-color);
   color: var(--background-color);
 }
