@@ -55,7 +55,7 @@ img {
 
 .blue-button{
   padding: 10px 20px 10px 20px;
-  border-radius: 8px;
+  border-radius: 7px;
   background-color: var(--element-color);
   color: var(--background-color);
   font-weight: 500;
@@ -180,6 +180,83 @@ img {
 /* FEATURES SECTION */
 .features{
   margin-top: 120px;
+}
+.features__info{
+  margin-bottom: 44px;
+}
+.tabs {
+  padding-top: 32px;
+}
+.tabs__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tabs__item {
+  width: 243px;
+  border-bottom: 1px solid rgba(73, 93, 207, 0.2);
+  padding-bottom: 28px;
+}
+.tabs__link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  opacity: 0.75;
+}
+.tabs__link:hover{
+  color: var(--error-elemnts-color);
+}
+.tabs__link:active{
+  opacity: 0.6;
+}
+.tabs__item--active{
+  border-bottom: 4px solid rgba(250, 89, 89, 1);
+}
+/* TAB PANEL CONTENT */
+.tabs__panels {
+}
+.tabs__panel {
+}
+.fetures-tab-panel {
+  position: relative;
+  padding-top: 72px;
+  display: flex;
+}
+.features-tab-panel__img{
+  margin-right: 125px;
+}
+.features-tab-panel__decor-img{
+  position: absolute;
+  z-index: -1;
+  left: -600px;
+  top: 155px;
+}
+.features-tab-panel__info {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+.features-tab-panel__title {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+}
+.features-tab-panel__paragraph {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 32px;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 
