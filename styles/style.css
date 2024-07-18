@@ -219,10 +219,6 @@ img {
   border-bottom: 4px solid rgba(250, 89, 89, 1);
 }
 /* TAB PANEL CONTENT */
-.tabs__panels {
-}
-.tabs__panel {
-}
 .fetures-tab-panel {
   position: relative;
   padding-top: 72px;
@@ -257,6 +253,13 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+}
+.tabs__panel {
+  display: none;
+}
+
+.tabpanels__item--active {
+  display: block;
 }
 
 
