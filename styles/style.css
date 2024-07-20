@@ -86,6 +86,11 @@ img {
   opacity: 50%;
   text-align: center;
 }
+.blue-button:hover{
+  color: var(--element-color);
+  border: 2px solid var(--element-color);
+  background-color: var(--element-white);
+}
 /* HEADER */
 .header__container{
   padding-top: 40px;
@@ -160,11 +165,16 @@ img {
 }
 .white-link{
   background-color: var(--element-white);
+  color: var(--text-color);
   padding: 10px 24px 10px 24px;
   border-radius: 8px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+.white-link:hover{
+  border: 2px solid var(--text-color);
+  background-color: var(--element-white);
 }
 .hero__img {
   position: absolute;
@@ -343,6 +353,11 @@ img {
   font-size: 14px;
   line-height: 28px;
 }
+.dowonloaw__list-link:hover{
+  color: var(--element-color);
+  border: 2px solid var(--element-color);
+  background-color: var(--element-white);
+}
 /* Questions section */
 .question {
   padding-bottom: 150px;
@@ -390,6 +405,52 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+/* CONTACT SECTION */
+.contact {
+  text-align: center;
+  background-color: var(--element-color);
+  color:var(--element-white);
+  padding-top: 58px;
+  padding-bottom: 74px;
+}
+.contact__span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 48px;
+}
+.contact__title {
+  margin-top: 24px;
+}
+.contact__form {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+}
+.form__input {
+  padding: 10px 20px;
+  padding-right: 113px;
+  background-color: var(--element-white);
+  border: none;
+  margin-right: 16px;
+  border-radius:8px;
+  line-height: 28px;
+  
+}
+.form__button {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: var(--element-white);
+  background-color: var(--error-elemnts-color);
+  border: none;
+  border-radius: 8px;
+}
+.form__button:hover{
+  color: var(--error-elemnts-color);
+  border: 2px solid var(--error-elemnts-color);
+  background-color:var(--element-white);
+}
+
 /* FOOTER CONTENT */
 .footer{
   margin-bottom: 0;
@@ -405,12 +466,15 @@ img {
 .footer__nav{
   margin-right: auto;
 }
-.footer__navlist{
-
-}
 .footer__link{
   color: var(--background-color);
 }
-.site-socials:not(:last-child) {
+.socials-link:not(:last-child) {
   margin-right: 40px;
+}
+.footer__link:hover {
+  color: var(--error-elemnts-color);
+}
+.socials-link:hover{
+  color: var(--error-elemnts-color);
 }
