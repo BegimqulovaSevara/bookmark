@@ -2,7 +2,7 @@ const elsTabItem = document.querySelectorAll('.tabs__item');
 const elsTabPanel = document.querySelectorAll('.tabs__panel');
 const elsTabLink = document.querySelectorAll('.js-tab-link');
 const elsTabOpener = document.querySelectorAll('.js-question-button');
-const elsParagraf = document.querySelectorAll('.js-question-paragraf')
+const elsParagraf = document.querySelectorAll('.js-question-paragraf');
 
 function detactivateTabItems () {
     elsTabItem.forEach( function (elTabItem) {
@@ -38,5 +38,5 @@ elsTabOpener.forEach( (elTabOpener) => {
     elTabOpener.addEventListener('click', function() {
         const elOpenerPanel = document.querySelector(elTabOpener.dataset.tabTarget);
         elOpenerPanel.classList.toggle('question__paragraf--active');
-    })
-})
+    });
+});

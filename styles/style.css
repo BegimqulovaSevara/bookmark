@@ -387,6 +387,7 @@ img {
 }
 .question__close-img {
   display: block;
+  color: var(--element-color);
 }
 .list__questions {
   margin-right: auto;
